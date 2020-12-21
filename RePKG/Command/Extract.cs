@@ -62,11 +62,11 @@ namespace RePKG.Command
                         ExtractTexDirectory(directoryInfo);
                     else
                         ExtractPkgDirectory(directoryInfo);
-
+                    
                     Console.WriteLine("Done");
                     return;
                 }
-
+                
                 Console.WriteLine("Input file not found");
                 Console.WriteLine(options.Input);
                 return;
